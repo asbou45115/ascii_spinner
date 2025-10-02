@@ -3,6 +3,9 @@ from typing import Tuple
 
 class Rotation:
     def __init__(self, angle_x: float, angle_y: float, angle_z: float):
+        '''
+        Applies basic rotation matrices to points
+        '''
         self.A = angle_x
         self.B = angle_y
         self.C = angle_z
